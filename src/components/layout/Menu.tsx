@@ -1,5 +1,5 @@
 import IconButton from '@/components/ui/IconButton'
-import { faBars, faHome, faTimes, faTree } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faHome, faRulerCombined, faTimes, faTree } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { css } from '@styled-system/css'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -9,6 +9,7 @@ import { useCallback, useEffect, useRef, useState, type FC } from 'react'
 
 const menuItems = [
   { label: 'Inicio', href: '/', icon: faHome },
+  { label: 'Reglamento', href: '/reglamento', icon: faRulerCombined },
   { label: 'EntGamers.pro', href: 'https://entgamers.pro', icon: faTree }
 ]
 
