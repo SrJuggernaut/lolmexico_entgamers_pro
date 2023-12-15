@@ -1,0 +1,41 @@
+{
+  "name": "entgamers-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install && panda codegen",
+    "develop": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.0.17",
+    "@fontsource/permanent-marker": "^5.0.8",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/node": "20.9.4",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.17",
+    "entgamers-panda-preset": "^0.0.10",
+    "framer-motion": "^10.16.5",
+    "next": "14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-next": "13.4.12",
+    "@pandacss/dev": "^0.21.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "husky": "^8.0.3"
+  }
+}
