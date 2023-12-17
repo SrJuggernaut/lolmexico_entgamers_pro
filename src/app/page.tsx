@@ -73,7 +73,7 @@ const Home: FC = () => {
           buttonLabel='Ver comunidades'
         />
         <SectionCard
-          title='Equipo de moderación'
+          title='Equipo de administración'
           description='Conoce al equipo de moderación del grupo'
           buttonHref='/equipo'
           buttonLabel='Ver equipo'
